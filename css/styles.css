@@ -387,12 +387,12 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.team-soc-link:hover,
-.team-soc-link:focus {
+.team__soc-link:hover,
+.team__soc-link:focus {
   background-color: var(--primary-action-color);
 }
-.team-soc-link:hover .team-soc-icon,
-.team-soc-link:focus .team-soc-icon {
+.team__soc-link:hover .team__soc-icon,
+.team__soc-link:focus .team__soc-icon {
   fill: var(--white-color);
 }
 
