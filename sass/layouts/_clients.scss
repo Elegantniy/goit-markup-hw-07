@@ -18,21 +18,22 @@
   transition-property: border;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    border-color: var(--primary-action-color);
+  }
 }
-.clients-link:hover,
-.clients-link:focus {
-  border-color: var(--primary-action-color);
-}
+
 .clients-icon {
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.clients-link:hover .clients-icon,
-.clients-link:focus .clients-icon {
-  fill: var(--primary-action-color);
-}
 
 .clients-icon {
   fill: var(--soc-icon);
+  .clients-link:hover &,
+  .clients-link:focus & {
+    fill: var(--primary-action-color);
+  }
 }
