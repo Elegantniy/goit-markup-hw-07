@@ -3,10 +3,12 @@
 @import './base/common';
 @import './utils/hidden';
 
+
+@import './components/header-logo';
 @import './components/container';
 @import './components/section';
 @import './components/modal';
-@import './components/container';
+@import './components/footer-logo';
 
 @import './layouts/header';
 @import './layouts/hero';

@@ -8,16 +8,6 @@
   justify-content: space-between;
 }
 
-.footer-logo-link {
-  color: var(--white-color);
-  text-decoration: none;
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  margin-bottom: 20px;
-  display: inline-block;
-}
 .footer-item:not(:last-child) {
   margin-bottom: 9px;
 }
@@ -58,6 +48,7 @@
 }
 .join-title,
 .subscribe-title {
+  font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
